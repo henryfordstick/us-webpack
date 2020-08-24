@@ -8,16 +8,17 @@
  2、compilation 下面最重要的依赖就是chunk和module：
     module生成一个树，将结果交给chunk，chunk根据template生成代码后，又交给compilation，
     最后输出代码。
+ 
  3、Parser
     专门用来处理ast之间的关系
     
 ### 操作
 1、将项目克隆到本地
 
-`git clone git@github.com:henryfordstick/us-webpack.git`
+```git clone git@github.com:henryfordstick/us-webpack.git```
 
 2、运行
 
-`npm run dev`
+```npm run dev```
 
  
